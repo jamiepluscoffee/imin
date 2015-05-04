@@ -22,6 +22,17 @@ class InviteViewController: UIViewController {
     
     @IBAction func letsGoTapped(sender: AnyObject) {
         println("\(whatAreWeDoingTextField.text) at \(whereAreWeGoingTextField.text)")
+        let alertController = UIAlertController(title: "Jamie says:", message: "\(whatAreWeDoingTextField.text) at \(whereAreWeGoingTextField.text)", preferredStyle: .Alert)
+        
+        let OKAction = UIAlertAction(title: "Cool!", style: .Default) { (action) in
+            // ...
+        }
+        alertController.addAction(OKAction)
+        
+        self.presentViewController(alertController, animated: true) {
+            // ...
+        }
+        
     }
     
     /*
