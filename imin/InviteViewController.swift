@@ -10,18 +10,20 @@ import UIKit
 
 class InviteViewController: UIViewController {
 
+    @IBOutlet weak var letsGoButton: UIButton!
+    @IBOutlet weak var whatAreWeDoingTextField: UITextField!
+    @IBOutlet weak var whereAreWeGoingTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func letsGoTapped(sender: AnyObject) {
+        println("\(whatAreWeDoingTextField.text) at \(whereAreWeGoingTextField.text)")
     }
     
-
     /*
     // MARK: - Navigation
 

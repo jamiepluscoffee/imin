@@ -48,6 +48,9 @@
                                         <state key="normal" title="let's go!">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="letsGoTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Z4M-hc-vba"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -128,10 +131,15 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="letsGoButton" destination="iTW-FM-Cph" id="8Lz-Ju-x1n"/>
+                        <outlet property="whatAreWeDoingTextField" destination="mVZ-1k-5nT" id="oNn-me-jIs"/>
+                        <outlet property="whereAreWeGoingTextField" destination="QHj-zN-Jmg" id="uUN-il-c7c"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="297" y="456"/>
+            <point key="canvasLocation" x="169.5" y="453"/>
         </scene>
     </scenes>
 </document>
