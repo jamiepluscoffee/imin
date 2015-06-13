@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D0553765FF9AC5FE4C0A64B0"
-               BuildableName = "Pods_imin.framework"
-               BlueprintName = "Pods-imin"
+               BlueprintIdentifier = "F4ADCA5868A4D529FB0C9D9C"
+               BuildableName = "AFDateHelper_icanzilb_.framework"
+               BlueprintName = "Pods-imin-AFDateHelper(icanzilb)"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

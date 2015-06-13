@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F642D98955CEFE9F41062B15"
+               BlueprintIdentifier = "05896254B18CB03C0096CBF2"
                BuildableName = "SwiftyJSON.framework"
                BlueprintName = "Pods-imin-SwiftyJSON"
                ReferencedContainer = "container:Pods.xcodeproj">

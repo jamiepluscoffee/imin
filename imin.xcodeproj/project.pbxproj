@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		264324DB45BEEC75CF5836AC /* Pods_imin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C891C216045362F33F7C2BE7 /* Pods_imin.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		8A6064D21AF7ADDD0003AEE8 /* InviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6064D11AF7ADDD0003AEE8 /* InviteViewController.swift */; };
+		8AE579ED1B2C9F8F00D580FB /* ActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE579EC1B2C9F8F00D580FB /* ActivityTableViewCell.swift */; };
+		8AE579EF1B2CA04C00D580FB /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE579EE1B2CA04C00D580FB /* Activity.swift */; };
+		8AE579F11B2CA09900D580FB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE579F01B2CA09900D580FB /* User.swift */; };
+		8AE579F31B2CA16D00D580FB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE579F21B2CA16D00D580FB /* Location.swift */; };
+		8AE579F51B2CA1AD00D580FB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE579F41B2CA1AD00D580FB /* CoreLocation.framework */; };
+		8AE579F71B2CA45600D580FB /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE579F61B2CA45600D580FB /* UserSession.swift */; };
+		8AE579F91B2CA77900D580FB /* ActivitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE579F81B2CA77900D580FB /* ActivitiesTableViewController.swift */; };
 		8AEFB6641AF7A692004F030B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEFB6631AF7A692004F030B /* AppDelegate.swift */; };
 		8AEFB6661AF7A692004F030B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEFB6651AF7A692004F030B /* ViewController.swift */; };
 		8AEFB6691AF7A692004F030B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AEFB6671AF7A692004F030B /* Main.storyboard */; };
@@ -31,6 +38,13 @@
 		264C453D2FDFD4A7610700ED /* Pods-imin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imin.release.xcconfig"; path = "Pods/Target Support Files/Pods-imin/Pods-imin.release.xcconfig"; sourceTree = "<group>"; };
 		46AA0E596D5D3E3FFB2BF3CE /* Pods-imin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-imin/Pods-imin.debug.xcconfig"; sourceTree = "<group>"; };
 		8A6064D11AF7ADDD0003AEE8 /* InviteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteViewController.swift; sourceTree = "<group>"; };
+		8AE579EC1B2C9F8F00D580FB /* ActivityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityTableViewCell.swift; sourceTree = "<group>"; };
+		8AE579EE1B2CA04C00D580FB /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		8AE579F01B2CA09900D580FB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8AE579F21B2CA16D00D580FB /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		8AE579F41B2CA1AD00D580FB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8AE579F61B2CA45600D580FB /* UserSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		8AE579F81B2CA77900D580FB /* ActivitiesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesTableViewController.swift; sourceTree = "<group>"; };
 		8AEFB65E1AF7A692004F030B /* imin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEFB6621AF7A692004F030B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AEFB6631AF7A692004F030B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AE579F51B2CA1AD00D580FB /* CoreLocation.framework in Frameworks */,
 				264324DB45BEEC75CF5836AC /* Pods_imin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,6 +81,7 @@
 		26C0204A1EBAD24FEE16FDF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8AE579F41B2CA1AD00D580FB /* CoreLocation.framework */,
 				C891C216045362F33F7C2BE7 /* Pods_imin.framework */,
 			);
 			name = Frameworks;
@@ -101,6 +117,12 @@
 				8AEFB66C1AF7A692004F030B /* LaunchScreen.xib */,
 				8AEFB6611AF7A692004F030B /* Supporting Files */,
 				8A6064D11AF7ADDD0003AEE8 /* InviteViewController.swift */,
+				8AE579EC1B2C9F8F00D580FB /* ActivityTableViewCell.swift */,
+				8AE579EE1B2CA04C00D580FB /* Activity.swift */,
+				8AE579F01B2CA09900D580FB /* User.swift */,
+				8AE579F21B2CA16D00D580FB /* Location.swift */,
+				8AE579F61B2CA45600D580FB /* UserSession.swift */,
+				8AE579F81B2CA77900D580FB /* ActivitiesTableViewController.swift */,
 			);
 			path = imin;
 			sourceTree = "<group>";
@@ -290,9 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AE579EF1B2CA04C00D580FB /* Activity.swift in Sources */,
 				8A6064D21AF7ADDD0003AEE8 /* InviteViewController.swift in Sources */,
+				8AE579F11B2CA09900D580FB /* User.swift in Sources */,
 				8AEFB6661AF7A692004F030B /* ViewController.swift in Sources */,
+				8AE579ED1B2C9F8F00D580FB /* ActivityTableViewCell.swift in Sources */,
 				8AEFB6641AF7A692004F030B /* AppDelegate.swift in Sources */,
+				8AE579F91B2CA77900D580FB /* ActivitiesTableViewController.swift in Sources */,
+				8AE579F31B2CA16D00D580FB /* Location.swift in Sources */,
+				8AE579F71B2CA45600D580FB /* UserSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

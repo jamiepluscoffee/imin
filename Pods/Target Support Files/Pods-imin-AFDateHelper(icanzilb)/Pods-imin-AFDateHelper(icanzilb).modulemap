@@ -1,0 +1,6 @@
+framework module AFDateHelper_icanzilb_ {
+  umbrella header "Pods-imin-AFDateHelper(icanzilb)-umbrella.h"
+
+  export *
+  module * { export * }
+}

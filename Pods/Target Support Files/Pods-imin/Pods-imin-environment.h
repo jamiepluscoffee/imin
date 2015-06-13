@@ -6,6 +6,12 @@
 // project.
 
 
+// AFDateHelper(icanzilb)
+#define COCOAPODS_POD_AVAILABLE_AFDateHelper_icanzilb_
+#define COCOAPODS_VERSION_MAJOR_AFDateHelper_icanzilb_ 1
+#define COCOAPODS_VERSION_MINOR_AFDateHelper_icanzilb_ 1
+#define COCOAPODS_VERSION_PATCH_AFDateHelper_icanzilb_ 1
+
 // AFNetworking
 #define COCOAPODS_POD_AVAILABLE_AFNetworking
 #define COCOAPODS_VERSION_MAJOR_AFNetworking 2
