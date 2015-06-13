@@ -25,6 +25,11 @@ class ActivitiesTableViewController: UITableViewController
             Activity(name: "Drinking tasty craft beer", host: alexey, location: Location(name: "Meantime brewery", lat: 0.0, lon: 0.0), date: NSDate())]
     }
     
+    func showSchedulingView()
+    {
+        self.performSegueWithIdentifier("showSchedulingViewSegue", sender: self)
+    }
+    
     var todayActivities: [Activity] {
         get {
             return [self.activities[0]]
@@ -97,9 +102,15 @@ class ActivitiesTableViewController: UITableViewController
     }
     */
 
-    /*
     // MARK: - Navigation
+    
 
+    @IBAction func prepareForUnwind(segue: UIStoryboardSegue)
+    {
+        
+    }
+
+    /*
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using [segue destinationViewController].
